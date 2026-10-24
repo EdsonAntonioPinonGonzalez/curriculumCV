@@ -45,3 +45,31 @@ p {
 p {
     margin-bottom: 15px;
 }
+
+/* Barra de navegación */
+
+header {
+    background-color: #161b22;
+    border-bottom: 1px solid #30363d;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #58a6ff;
+}
