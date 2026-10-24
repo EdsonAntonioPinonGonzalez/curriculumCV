@@ -246,3 +246,45 @@ section li {
         padding: 5px 10px;
     }
 }
+
+
+/* Mejoras visuales de experiencia */
+
+/* Subtítulos de experiencia */
+#experiencia h3 {
+    color: #3fbfad;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+/* Primer subtítulo */
+#experiencia h3:first-of-type {
+    margin-top: 0;
+}
+
+/* Separación de proyectos */
+#experiencia ul {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* Enlaces del curriculum */
+#datos a {
+    color: #58a6ff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+#datos a:hover {
+    color: #3fbfad;
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
+    font-size: 14px;
+}
