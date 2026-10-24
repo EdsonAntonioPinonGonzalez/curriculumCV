@@ -161,3 +161,88 @@ section li {
     font-family: Consolas, monospace;
     font-size: 13px;
 }
+
+/* Diseño responsive */
+
+/* Pantallas pequeñas: tablets y celulares */
+@media (max-width: 768px) {
+
+    main {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    section {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .presentacion {
+        padding: 25px;
+    }
+
+    .presentacion h1 {
+        font-size: 32px;
+    }
+
+    .presentacion h2 {
+        font-size: 19px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+/* Pantallas muy pequeñas: celulares */
+@media (max-width: 480px) {
+
+    main {
+        padding: 10px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .presentacion {
+        padding: 20px;
+    }
+
+    .presentacion h1 {
+        font-size: 28px;
+    }
+
+    .presentacion h2 {
+        font-size: 17px;
+    }
+
+    .terminal {
+        font-size: 12px;
+    }
+
+    .tecnologias span {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+}
